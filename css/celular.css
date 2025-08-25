@@ -15,6 +15,33 @@
     background-position: center;
 }
 
+#logo-menu{
+    margin-top: 10px;
+    padding: 8px;
+    height: 64px;
+    width: 100%;
+    background-color: rgba(218, 165, 32, 0.525);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#logo{
+    background-image: url(../images/logo.png);
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateX(-130px);
+}
+
+#menu{
+    color: white;
+    font-size: 2.5em;
+    transform: translateX(110px);
+}
+
 .cabecalho-1{
     margin-top: 50%;
     display: flex;

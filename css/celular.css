@@ -109,3 +109,43 @@
     background-color: white;
     color: black;
 }
+
+#menu-celular{
+    font-size: 1em;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    
+}
+
+#menu-hamburguer{
+    display: block;
+}
+
+#menu-celular li{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(218, 165, 32, 0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#menu-celular li a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu-celular li a:hover{
+    color: goldenrod;
+    font-size: 1.1em;
+    transition: 0.8s;
+}
+
+
+#menu{
+    background-color: transparent;
+    border: none;
+    
+}
